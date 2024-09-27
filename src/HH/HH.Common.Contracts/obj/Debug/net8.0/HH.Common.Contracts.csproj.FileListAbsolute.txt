@@ -1,0 +1,24 @@
+C:\Users\User\Downloads\Telegram Desktop\HH\HH\HH.Common.Contracts\bin\Debug\net8.0\HH.Common.Contracts.deps.json
+C:\Users\User\Downloads\Telegram Desktop\HH\HH\HH.Common.Contracts\bin\Debug\net8.0\HH.Common.Contracts.dll
+C:\Users\User\Downloads\Telegram Desktop\HH\HH\HH.Common.Contracts\bin\Debug\net8.0\HH.Common.Contracts.pdb
+C:\Users\User\Downloads\Telegram Desktop\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Telegram Desktop\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\Telegram Desktop\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\Telegram Desktop\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.AssemblyInfo.cs
+C:\Users\User\Downloads\Telegram Desktop\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Telegram Desktop\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.dll
+C:\Users\User\Downloads\Telegram Desktop\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\refint\HH.Common.Contracts.dll
+C:\Users\User\Downloads\Telegram Desktop\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.pdb
+C:\Users\User\Downloads\Telegram Desktop\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\ref\HH.Common.Contracts.dll
+C:\Users\stem\Downloads\HH\HH\HH\HH.Common.Contracts\bin\Debug\net8.0\HH.Common.Contracts.deps.json
+C:\Users\stem\Downloads\HH\HH\HH\HH.Common.Contracts\bin\Debug\net8.0\HH.Common.Contracts.dll
+C:\Users\stem\Downloads\HH\HH\HH\HH.Common.Contracts\bin\Debug\net8.0\HH.Common.Contracts.pdb
+C:\Users\stem\Downloads\HH\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.csproj.AssemblyReference.cache
+C:\Users\stem\Downloads\HH\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stem\Downloads\HH\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.AssemblyInfoInputs.cache
+C:\Users\stem\Downloads\HH\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.AssemblyInfo.cs
+C:\Users\stem\Downloads\HH\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\stem\Downloads\HH\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.dll
+C:\Users\stem\Downloads\HH\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\refint\HH.Common.Contracts.dll
+C:\Users\stem\Downloads\HH\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\HH.Common.Contracts.pdb
+C:\Users\stem\Downloads\HH\HH\HH\HH.Common.Contracts\obj\Debug\net8.0\ref\HH.Common.Contracts.dll

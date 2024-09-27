@@ -1,0 +1,1546 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\files\\filepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\files\\filepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.api\\proccesors\\fileproccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|solutionrelative:hh.api\\proccesors\\fileproccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A0FC0B-D3CF-423D-9B1B-7AAFA862D600}|HH.Common.Contracts\\HH.Common.Contracts.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.common.contracts\\dto\\uploadfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A0FC0B-D3CF-423D-9B1B-7AAFA862D600}|HH.Common.Contracts\\HH.Common.Contracts.csproj|solutionrelative:hh.common.contracts\\dto\\uploadfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\files\\iminioprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\files\\iminioprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\files\\ifilecleaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\files\\ifilecleaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\fileservice\\filecleaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\fileservice\\filecleaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\providers\\minioprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\providers\\minioprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.domain\\shared\\files\\itemfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|solutionrelative:hh.domain\\shared\\files\\itemfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\files\\filedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\files\\filedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\options\\miniooptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\options\\miniooptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|solutionrelative:hh.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.api\\controllers\\vacancycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|solutionrelative:hh.api\\controllers\\vacancycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|solutionrelative:hh.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.api\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|solutionrelative:hh.api\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\users\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\users\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\vacancies\\create\\createvacancycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\vacancies\\create\\createvacancycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\users\\register\\rab\\registerrabcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\users\\register\\rab\\registerrabcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\users\\register\\boss\\registerbosscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\users\\register\\boss\\registerbosscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\repositories\\vacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\repositories\\vacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\vacancies\\apply\\applyvacancycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\vacancies\\apply\\applyvacancycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\vacancies\\uploadfile\\uploadfilecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\vacancies\\uploadfile\\uploadfilecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\vacancies\\uploadfile\\uploadfilecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\vacancies\\uploadfile\\uploadfilecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\vacancies\\create\\createvacancycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\vacancies\\create\\createvacancycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.domain\\entitties\\vacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|solutionrelative:hh.domain\\entitties\\vacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C947EAD-ABC9-41A4-8942-059CB9A2B9E9}|..\\HH.Application.SignalR\\HH.Application.Chat.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh.application.signalr\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.domain\\entitties\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|solutionrelative:hh.domain\\entitties\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{763810A2-88D1-4B36-8F8A-5DB3E4A812A1}|docker-compose.dcproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{763810A2-88D1-4B36-8F8A-5DB3E4A812A1}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|solutionrelative:hh.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240923092649_Date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HH.Infrastructure\\Migrations\\20240923092649_Date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\configurations\\vacancyapplicationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\configurations\\vacancyapplicationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.api\\extension\\migrationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|solutionrelative:hh.api\\extension\\migrationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.api\\extension\\swaggerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|solutionrelative:hh.api\\extension\\swaggerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{763810A2-88D1-4B36-8F8A-5DB3E4A812A1}|docker-compose.dcproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{763810A2-88D1-4B36-8F8A-5DB3E4A812A1}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\hh.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\hh.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{763810A2-88D1-4B36-8F8A-5DB3E4A812A1}|docker-compose.dcproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{763810A2-88D1-4B36-8F8A-5DB3E4A812A1}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.domain\\entitties\\valueobjects\\salaryrange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|solutionrelative:hh.domain\\entitties\\valueobjects\\salaryrange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\configurations\\vacancyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\configurations\\vacancyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.domain\\entitties\\vacancyapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|solutionrelative:hh.domain\\entitties\\vacancyapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.api\\hh.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|solutionrelative:hh.api\\hh.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\vacancies\\get\\getonlyvacanciesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\vacancies\\get\\getonlyvacanciesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\vacancies\\get\\getonlyvacanciesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\vacancies\\get\\getonlyvacanciesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\users\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\users\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C947EAD-ABC9-41A4-8942-059CB9A2B9E9}|..\\HH.Application.SignalR\\HH.Application.Chat.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh.application.signalr\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.domain\\common\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|solutionrelative:hh.domain\\common\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C947EAD-ABC9-41A4-8942-059CB9A2B9E9}|..\\HH.Application.SignalR\\HH.Application.Chat.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh.application.signalr\\hh.application.chat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\users\\get\\getuserwithvacanciesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\users\\get\\getuserwithvacanciesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\hh.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\hh.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|solutionrelative:hh.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\messagequeue\\messagequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\messagequeue\\messagequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\messaging\\imessagequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\messaging\\imessagequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\providers\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\providers\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\users\\register\\rab\\registerrabcommamd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\users\\register\\rab\\registerrabcommamd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A75E4F-330D-45B5-BE09-0E39A36E1384}|..\\tests\\tests.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A75E4F-330D-45B5-BE09-0E39A36E1384}|..\\tests\\tests.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\tests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\Posts.ASP.NET\\Posts\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|solutionrelative:hh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\Posts.ASP.NET\\Posts.Infrastructure\\ServiceCollectionExtension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0DCB9DEF-CFFB-4BFA-A284-84BB88BB68DC}|HH.API\\HH.API.csproj|solutionrelative:hh.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.domain\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|solutionrelative:hh.domain\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\users\\register\\boss\\registerbosscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\users\\register\\boss\\registerbosscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\services\\vacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\services\\vacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.domain\\interfaces\\services\\ivacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|solutionrelative:hh.domain\\interfaces\\services\\ivacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.domain\\interfaces\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|solutionrelative:hh.domain\\interfaces\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|solutionrelative:hh.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\vacancies\\apply\\applyvacancycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\vacancies\\apply\\applyvacancycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240911161711_Roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HH.Infrastructure\\Migrations\\20240911161711_Roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.domain\\interfaces\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|solutionrelative:hh.domain\\interfaces\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\users\\get\\getuserwithvacanciesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\users\\get\\getuserwithvacanciesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.domain\\interfaces\\repository\\ivacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88634CA0-44B7-4209-B4D9-3E59D5852E3A}|HH.Domain\\HH.Domain.csproj|solutionrelative:hh.domain\\interfaces\\repository\\ivacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A0FC0B-D3CF-423D-9B1B-7AAFA862D600}|HH.Common.Contracts\\HH.Common.Contracts.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.common.contracts\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A0FC0B-D3CF-423D-9B1B-7AAFA862D600}|HH.Common.Contracts\\HH.Common.Contracts.csproj|solutionrelative:hh.common.contracts\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A0FC0B-D3CF-423D-9B1B-7AAFA862D600}|HH.Common.Contracts\\HH.Common.Contracts.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.common.contracts\\dto\\vacancydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A0FC0B-D3CF-423D-9B1B-7AAFA862D600}|HH.Common.Contracts\\HH.Common.Contracts.csproj|solutionrelative:hh.common.contracts\\dto\\vacancydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\database\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\database\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240910080957_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HH.Infrastructure\\Migrations\\20240910080957_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240910075007_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HH.Infrastructure\\Migrations\\20240910075007_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240910073949_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HH.Infrastructure\\Migrations\\20240910073949_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240908151302_Inittt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HH.Infrastructure\\Migrations\\20240908151302_Inittt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240908150730_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HH.Infrastructure\\Migrations\\20240908150730_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240908080952_Relationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HH.Infrastructure\\Migrations\\20240908080952_Relationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.application\\features\\users\\userrespones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9CF16-9748-484F-B4CB-E8FF2A672C1B}|HH.Application\\HH.Application.csproj|solutionrelative:hh.application\\features\\users\\userrespones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A0FC0B-D3CF-423D-9B1B-7AAFA862D600}|HH.Common.Contracts\\HH.Common.Contracts.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.common.contracts\\common\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A0FC0B-D3CF-423D-9B1B-7AAFA862D600}|HH.Common.Contracts\\HH.Common.Contracts.csproj|solutionrelative:hh.common.contracts\\common\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A0FC0B-D3CF-423D-9B1B-7AAFA862D600}|HH.Common.Contracts\\HH.Common.Contracts.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.common.contracts\\handlers\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A0FC0B-D3CF-423D-9B1B-7AAFA862D600}|HH.Common.Contracts\\HH.Common.Contracts.csproj|solutionrelative:hh.common.contracts\\handlers\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A0FC0B-D3CF-423D-9B1B-7AAFA862D600}|HH.Common.Contracts\\HH.Common.Contracts.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.common.contracts\\common\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A0FC0B-D3CF-423D-9B1B-7AAFA862D600}|HH.Common.Contracts\\HH.Common.Contracts.csproj|solutionrelative:hh.common.contracts\\common\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\CreateVacancyCommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HH.Application\\Features\\Vacancies\\CreateVacancyCommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\CreateVacancyCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HH.Application\\Features\\Vacancies\\CreateVacancyCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240910081238_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HH.Infrastructure\\Migrations\\20240910081238_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|c:\\users\\user\\downloads\\telegram desktop\\hh\\hh\\hh.infrastructure\\migrations\\20240923092719_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C045135-1CE6-4F71-A232-AEA2ED701D94}|HH.Infrastructure\\HH.Infrastructure.csproj|solutionrelative:hh.infrastructure\\migrations\\20240923092719_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 280,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FIleProccessor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Proccesors\\FIleProccessor.cs",
+              "RelativeDocumentMoniker": "HH.API\\Proccesors\\FIleProccessor.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Proccesors\\FIleProccessor.cs",
+              "RelativeToolTip": "HH.API\\Proccesors\\FIleProccessor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T04:56:52.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IFIleCleaner.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Files\\IFIleCleaner.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Files\\IFIleCleaner.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Files\\IFIleCleaner.cs",
+              "RelativeToolTip": "HH.Application\\Files\\IFIleCleaner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T04:54:44.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FIleCleaner.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\FileService\\FIleCleaner.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\FileService\\FIleCleaner.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\FileService\\FIleCleaner.cs",
+              "RelativeToolTip": "HH.Infrastructure\\FileService\\FIleCleaner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T04:48:22.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMinioProvider.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Files\\IMinioProvider.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Files\\IMinioProvider.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Files\\IMinioProvider.cs",
+              "RelativeToolTip": "HH.Application\\Files\\IMinioProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T04:47:09.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FileData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Files\\FileData.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Files\\FileData.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Files\\FileData.cs",
+              "RelativeToolTip": "HH.Application\\Files\\FileData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T04:35:04.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FilePath.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Files\\FilePath.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Files\\FilePath.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Files\\FilePath.cs",
+              "RelativeToolTip": "HH.Application\\Files\\FilePath.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAywBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T04:30:40.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MinioOptions.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Options\\MinioOptions.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Options\\MinioOptions.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Options\\MinioOptions.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Options\\MinioOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:52:58.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UploadFileDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Common.Contracts\\DTO\\UploadFileDto.cs",
+              "RelativeDocumentMoniker": "HH.Common.Contracts\\DTO\\UploadFileDto.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Common.Contracts\\DTO\\UploadFileDto.cs",
+              "RelativeToolTip": "HH.Common.Contracts\\DTO\\UploadFileDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:03:45.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Program.cs",
+              "RelativeDocumentMoniker": "HH.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Program.cs",
+              "RelativeToolTip": "HH.API\\Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAWwDgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MinioProvider.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Providers\\MinioProvider.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Providers\\MinioProvider.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Providers\\MinioProvider.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Providers\\MinioProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:54:08.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemFile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Shared\\Files\\ItemFile.cs",
+              "RelativeDocumentMoniker": "HH.Domain\\Shared\\Files\\ItemFile.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Shared\\Files\\ItemFile.cs",
+              "RelativeToolTip": "HH.Domain\\Shared\\Files\\ItemFile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T17:23:28.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Users\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Users\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA0wCEAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T08:23:02.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "HH.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAiwEwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "HH.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "HH.API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvzQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T08:31:11.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Controllers\\ApplicationController.cs",
+              "RelativeDocumentMoniker": "HH.API\\Controllers\\ApplicationController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Controllers\\ApplicationController.cs",
+              "RelativeToolTip": "HH.API\\Controllers\\ApplicationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VacancyController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Controllers\\VacancyController.cs",
+              "RelativeDocumentMoniker": "HH.API\\Controllers\\VacancyController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Controllers\\VacancyController.cs",
+              "RelativeToolTip": "HH.API\\Controllers\\VacancyController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAwwAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateVacancyCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\Create\\CreateVacancyCommandHandler.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Vacancies\\Create\\CreateVacancyCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\Create\\CreateVacancyCommandHandler.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Vacancies\\Create\\CreateVacancyCommandHandler.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswBwAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:32:28.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegisterRabCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Register\\Rab\\RegisterRabCommandHandler.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Users\\Register\\Rab\\RegisterRabCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Register\\Rab\\RegisterRabCommandHandler.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Users\\Register\\Rab\\RegisterRabCommandHandler.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwBgAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegisterBossCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Register\\Boss\\RegisterBossCommand.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Users\\Register\\Boss\\RegisterBossCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Register\\Boss\\RegisterBossCommand.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Users\\Register\\Boss\\RegisterBossCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:05:29.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VacancyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Repositories\\VacancyRepository.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Repositories\\VacancyRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Repositories\\VacancyRepository.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Repositories\\VacancyRepository.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAMwDEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplyVacancyCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\Apply\\ApplyVacancyCommandHandler.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Vacancies\\Apply\\ApplyVacancyCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\Apply\\ApplyVacancyCommandHandler.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Vacancies\\Apply\\ApplyVacancyCommandHandler.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAYwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:24:34.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UploadFileCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\UploadFile\\UploadFileCommandHandler.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Vacancies\\UploadFile\\UploadFileCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\UploadFile\\UploadFileCommandHandler.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Vacancies\\UploadFile\\UploadFileCommandHandler.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAArwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T18:06:44.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UploadFileCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\UploadFile\\UploadFileCommand.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Vacancies\\UploadFile\\UploadFileCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\UploadFile\\UploadFileCommand.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Vacancies\\UploadFile\\UploadFileCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T18:04:36.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateVacancyCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\Create\\CreateVacancyCommand.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Vacancies\\Create\\CreateVacancyCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\Create\\CreateVacancyCommand.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Vacancies\\Create\\CreateVacancyCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:37:59.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH.Application.SignalR\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "..\\HH.Application.SignalR\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH.Application.SignalR\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "..\\HH.Application.SignalR\\Hubs\\ChatHub.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAASwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:17:27.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Entitties\\User.cs",
+              "RelativeDocumentMoniker": "HH.Domain\\Entitties\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Entitties\\User.cs",
+              "RelativeToolTip": "HH.Domain\\Entitties\\User.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAwC8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Vacancy.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Entitties\\Vacancy.cs",
+              "RelativeDocumentMoniker": "HH.Domain\\Entitties\\Vacancy.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Entitties\\Vacancy.cs",
+              "RelativeToolTip": "HH.Domain\\Entitties\\Vacancy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:21:13.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-09-15T06:13:08.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "HH.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\appsettings.Development.json",
+              "RelativeToolTip": "HH.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-07T07:03:02.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20240923092649_Date.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240923092649_Date.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Migrations\\20240923092649_Date.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240923092649_Date.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Migrations\\20240923092649_Date.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:26:49.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "20240923092719_Init.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240923092719_Init.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Migrations\\20240923092719_Init.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240923092719_Init.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Migrations\\20240923092719_Init.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAAwA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:27:20.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MigrationExtension.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Extension\\MigrationExtension.cs",
+              "RelativeDocumentMoniker": "HH.API\\Extension\\MigrationExtension.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Extension\\MigrationExtension.cs",
+              "RelativeToolTip": "HH.API\\Extension\\MigrationExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T17:18:32.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SwaggerExtension.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Extension\\SwaggerExtension.cs",
+              "RelativeDocumentMoniker": "HH.API\\Extension\\SwaggerExtension.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Extension\\SwaggerExtension.cs",
+              "RelativeToolTip": "HH.API\\Extension\\SwaggerExtension.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T08:55:24.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "VacancyApplicationConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Configurations\\VacancyApplicationConfiguration.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Configurations\\VacancyApplicationConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Configurations\\VacancyApplicationConfiguration.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Configurations\\VacancyApplicationConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T06:56:06.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Database\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Database\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Database\\ApplicationDbContext.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Database\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-17T06:06:16.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HH.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\HH.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\HH.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\HH.Infrastructure.csproj",
+              "RelativeToolTip": "HH.Infrastructure\\HH.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-07T07:03:02.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-09-18T13:09:47.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SalaryRange.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Entitties\\ValueObjects\\SalaryRange.cs",
+              "RelativeDocumentMoniker": "HH.Domain\\Entitties\\ValueObjects\\SalaryRange.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Entitties\\ValueObjects\\SalaryRange.cs",
+              "RelativeToolTip": "HH.Domain\\Entitties\\ValueObjects\\SalaryRange.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwA4AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:51:40.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAIAywDIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "VacancyApplication.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Entitties\\VacancyApplication.cs",
+              "RelativeDocumentMoniker": "HH.Domain\\Entitties\\VacancyApplication.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Entitties\\VacancyApplication.cs",
+              "RelativeToolTip": "HH.Domain\\Entitties\\VacancyApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:23:04.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "VacancyConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Configurations\\VacancyConfiguration.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Configurations\\VacancyConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Configurations\\VacancyConfiguration.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Configurations\\VacancyConfiguration.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwA8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T07:26:16.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "HH.API.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\HH.API.csproj",
+              "RelativeDocumentMoniker": "HH.API\\HH.API.csproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\HH.API.csproj",
+              "RelativeToolTip": "HH.API\\HH.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-14T06:18:54.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GetOnlyVacanciesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\Get\\GetOnlyVacanciesQueryHandler.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Vacancies\\Get\\GetOnlyVacanciesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\Get\\GetOnlyVacanciesQueryHandler.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Vacancies\\Get\\GetOnlyVacanciesQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:31:53.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetOnlyVacanciesQuery.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\Get\\GetOnlyVacanciesQuery.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Vacancies\\Get\\GetOnlyVacanciesQuery.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\Get\\GetOnlyVacanciesQuery.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Vacancies\\Get\\GetOnlyVacanciesQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA1wAUAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:30:51.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Users\\Login\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Users\\Login\\LoginCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA1wAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T08:21:47.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH.Application.SignalR\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "..\\HH.Application.SignalR\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH.Application.SignalR\\Models\\Message.cs",
+              "RelativeToolTip": "..\\HH.Application.SignalR\\Models\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:35:11.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Common\\Role.cs",
+              "RelativeDocumentMoniker": "HH.Domain\\Common\\Role.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Common\\Role.cs",
+              "RelativeToolTip": "HH.Domain\\Common\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:46:12.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "HH.Application.Chat.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH.Application.SignalR\\HH.Application.Chat.csproj",
+              "RelativeDocumentMoniker": "..\\HH.Application.SignalR\\HH.Application.Chat.csproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH.Application.SignalR\\HH.Application.Chat.csproj",
+              "RelativeToolTip": "..\\HH.Application.SignalR\\HH.Application.Chat.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-17T09:02:46.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "HH.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\HH.Application.csproj",
+              "RelativeDocumentMoniker": "HH.Application\\HH.Application.csproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\HH.Application.csproj",
+              "RelativeToolTip": "HH.Application\\HH.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-22T05:09:22.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GetUserWithVacanciesQuery.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Get\\GetUserWithVacanciesQuery.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Users\\Get\\GetUserWithVacanciesQuery.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Get\\GetUserWithVacanciesQuery.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Users\\Get\\GetUserWithVacanciesQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA1wAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T06:53:50.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "HH.Application\\Services\\UserService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:25:36.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Providers\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Providers\\JwtProvider.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Providers\\JwtProvider.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Providers\\JwtProvider.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowB0AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Dockerfile",
+              "RelativeDocumentMoniker": "HH.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Dockerfile",
+              "RelativeToolTip": "HH.API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-15T06:12:33.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MessageQueue.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\MessageQueue\\MessageQueue.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\MessageQueue\\MessageQueue.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\MessageQueue\\MessageQueue.cs",
+              "RelativeToolTip": "HH.Infrastructure\\MessageQueue\\MessageQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T11:06:42.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IMessageQueue.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Messaging\\IMessageQueue.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Messaging\\IMessageQueue.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Messaging\\IMessageQueue.cs",
+              "RelativeToolTip": "HH.Application\\Messaging\\IMessageQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T12:30:57.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "RegisterRabCommamd.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Register\\Rab\\RegisterRabCommamd.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Users\\Register\\Rab\\RegisterRabCommamd.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Register\\Rab\\RegisterRabCommamd.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Users\\Register\\Rab\\RegisterRabCommamd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\tests\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:57:28.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\tests\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "..\\tests\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\tests\\GlobalUsings.cs",
+              "RelativeToolTip": "..\\tests\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:57:33.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ViewState": "AQIAALkBAAAAAAAAAAAewKgBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-13T06:45:17.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Options\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Options\\JwtOptions.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Options\\JwtOptions.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Options\\JwtOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Posts.ASP.NET\\Posts\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Posts.ASP.NET\\Posts\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Posts.ASP.NET\\Posts\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Posts.ASP.NET\\Posts\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T06:04:20.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\appsettings.json",
+              "RelativeDocumentMoniker": "HH.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\appsettings.json",
+              "RelativeToolTip": "HH.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-13T07:53:06.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Posts.ASP.NET\\Posts.Infrastructure\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Posts.ASP.NET\\Posts.Infrastructure\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Posts.ASP.NET\\Posts.Infrastructure\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Posts.ASP.NET\\Posts.Infrastructure\\ServiceCollectionExtension.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:34:06.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwBAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T07:29:21.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HH.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HH.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-14T06:23:20.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Interfaces\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "HH.Domain\\Interfaces\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Interfaces\\Services\\IUserService.cs",
+              "RelativeToolTip": "HH.Domain\\Interfaces\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:29:04.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "RegisterBossCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Register\\Boss\\RegisterBossCommandHandler.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Users\\Register\\Boss\\RegisterBossCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Register\\Boss\\RegisterBossCommandHandler.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Users\\Register\\Boss\\RegisterBossCommandHandler.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvx0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:06:06.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "VacancyService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Services\\VacancyService.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Services\\VacancyService.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Services\\VacancyService.cs",
+              "RelativeToolTip": "HH.Application\\Services\\VacancyService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwAsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:30:18.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IVacancyService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Interfaces\\Services\\IVacancyService.cs",
+              "RelativeDocumentMoniker": "HH.Domain\\Interfaces\\Services\\IVacancyService.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Interfaces\\Services\\IVacancyService.cs",
+              "RelativeToolTip": "HH.Domain\\Interfaces\\Services\\IVacancyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:31:55.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "IJwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Interfaces\\Services\\IJwtProvider.cs",
+              "RelativeDocumentMoniker": "HH.Domain\\Interfaces\\Services\\IJwtProvider.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Interfaces\\Services\\IJwtProvider.cs",
+              "RelativeToolTip": "HH.Domain\\Interfaces\\Services\\IJwtProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "HH.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "HH.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA1wAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:44:45.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "HH.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "HH.Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwAwAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ApplyVacancyCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\Apply\\ApplyVacancyCommand.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Vacancies\\Apply\\ApplyVacancyCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\Apply\\ApplyVacancyCommand.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Vacancies\\Apply\\ApplyVacancyCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:24:30.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "20240911161711_Roles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240911161711_Roles.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Migrations\\20240911161711_Roles.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240911161711_Roles.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Migrations\\20240911161711_Roles.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:17:11.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Interfaces\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "HH.Domain\\Interfaces\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Interfaces\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "HH.Domain\\Interfaces\\Repository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "GetUserWIthVacanciesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Get\\GetUserWIthVacanciesQueryHandler.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Users\\Get\\GetUserWIthVacanciesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\Get\\GetUserWIthVacanciesQueryHandler.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Users\\Get\\GetUserWIthVacanciesQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T06:58:05.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "IVacancyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Interfaces\\Repository\\IVacancyRepository.cs",
+              "RelativeDocumentMoniker": "HH.Domain\\Interfaces\\Repository\\IVacancyRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Domain\\Interfaces\\Repository\\IVacancyRepository.cs",
+              "RelativeToolTip": "HH.Domain\\Interfaces\\Repository\\IVacancyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Common.Contracts\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "HH.Common.Contracts\\DTO\\UserDto.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Common.Contracts\\DTO\\UserDto.cs",
+              "RelativeToolTip": "HH.Common.Contracts\\DTO\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:07:48.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "VacancyDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Common.Contracts\\DTO\\VacancyDto.cs",
+              "RelativeDocumentMoniker": "HH.Common.Contracts\\DTO\\VacancyDto.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Common.Contracts\\DTO\\VacancyDto.cs",
+              "RelativeToolTip": "HH.Common.Contracts\\DTO\\VacancyDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:08:12.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Database\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Database\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Database\\UnitOfWork.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Database\\UnitOfWork.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA0wBIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:16:52.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "CreateVacancyCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\CreateVacancyCommandHandler.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Vacancies\\CreateVacancyCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\CreateVacancyCommandHandler.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Vacancies\\CreateVacancyCommandHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "CreateVacancyCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\CreateVacancyCommand.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Vacancies\\CreateVacancyCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Vacancies\\CreateVacancyCommand.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Vacancies\\CreateVacancyCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "HH.Application\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeToolTip": "HH.Application\\UnitOfWork\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:16:02.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "20240910080957_Init.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240910080957_Init.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Migrations\\20240910080957_Init.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240910080957_Init.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Migrations\\20240910080957_Init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:09:57.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "20240910081238_Init.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240910081238_Init.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Migrations\\20240910081238_Init.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240910081238_Init.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Migrations\\20240910081238_Init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:12:38.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20240910075007_Init.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240910075007_Init.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Migrations\\20240910075007_Init.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240910075007_Init.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Migrations\\20240910075007_Init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T07:50:07.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20240910073949_Init.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240910073949_Init.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Migrations\\20240910073949_Init.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240910073949_Init.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Migrations\\20240910073949_Init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T07:39:50.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "20240908151302_Inittt.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240908151302_Inittt.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Migrations\\20240908151302_Inittt.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240908151302_Inittt.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Migrations\\20240908151302_Inittt.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:13:02.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "20240908150730_Init.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240908150730_Init.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Migrations\\20240908150730_Init.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240908150730_Init.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Migrations\\20240908150730_Init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:07:30.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20240908080952_Relationships.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240908080952_Relationships.cs",
+              "RelativeDocumentMoniker": "HH.Infrastructure\\Migrations\\20240908080952_Relationships.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Infrastructure\\Migrations\\20240908080952_Relationships.cs",
+              "RelativeToolTip": "HH.Infrastructure\\Migrations\\20240908080952_Relationships.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T08:09:52.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "UserRespones.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\UserRespones.cs",
+              "RelativeDocumentMoniker": "HH.Application\\Features\\Users\\UserRespones.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Application\\Features\\Users\\UserRespones.cs",
+              "RelativeToolTip": "HH.Application\\Features\\Users\\UserRespones.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:03:02.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Common.Contracts\\Common\\ICommand.cs",
+              "RelativeDocumentMoniker": "HH.Common.Contracts\\Common\\ICommand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Common.Contracts\\Common\\ICommand.cs",
+              "RelativeToolTip": "HH.Common.Contracts\\Common\\ICommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:21:07.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "ICommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Common.Contracts\\Handlers\\ICommandHandler.cs",
+              "RelativeDocumentMoniker": "HH.Common.Contracts\\Handlers\\ICommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Common.Contracts\\Handlers\\ICommandHandler.cs",
+              "RelativeToolTip": "HH.Common.Contracts\\Handlers\\ICommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:26:44.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "IQuery.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Common.Contracts\\Common\\IQuery.cs",
+              "RelativeDocumentMoniker": "HH.Common.Contracts\\Common\\IQuery.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Telegram Desktop\\HH\\HH\\HH.Common.Contracts\\Common\\IQuery.cs",
+              "RelativeToolTip": "HH.Common.Contracts\\Common\\IQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T07:25:48.295Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
