@@ -17,7 +17,7 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tests", "..\tests\tests.csproj", "{D7A75E4F-330D-45B5-BE09-0E39A36E1384}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HH.Application.Chat", "..\HH.Application.SignalR\HH.Application.Chat.csproj", "{8C947EAD-ABC9-41A4-8942-059CB9A2B9E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HH.Application.Chat", "HH.Application.SignalR\HH.Application.Chat.csproj", "{CA3063E5-B0DB-4ADF-883A-CD506CF0556F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,10 @@ Global
 		{D7A75E4F-330D-45B5-BE09-0E39A36E1384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A75E4F-330D-45B5-BE09-0E39A36E1384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A75E4F-330D-45B5-BE09-0E39A36E1384}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C947EAD-ABC9-41A4-8942-059CB9A2B9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C947EAD-ABC9-41A4-8942-059CB9A2B9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C947EAD-ABC9-41A4-8942-059CB9A2B9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C947EAD-ABC9-41A4-8942-059CB9A2B9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3063E5-B0DB-4ADF-883A-CD506CF0556F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3063E5-B0DB-4ADF-883A-CD506CF0556F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3063E5-B0DB-4ADF-883A-CD506CF0556F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3063E5-B0DB-4ADF-883A-CD506CF0556F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
