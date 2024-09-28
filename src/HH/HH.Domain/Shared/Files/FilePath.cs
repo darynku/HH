@@ -1,6 +1,6 @@
 ﻿using FluentResults;
 
-namespace HH.Application.Files
+namespace HH.Domain.Shared.Files
 {
     public class FilePath
     {
@@ -8,7 +8,7 @@ namespace HH.Application.Files
         {
             Path = path;
         }
-        public string Path { get; } 
+        public string Path { get; }
 
         public static Result<FilePath> Create(string fullPath)
         {

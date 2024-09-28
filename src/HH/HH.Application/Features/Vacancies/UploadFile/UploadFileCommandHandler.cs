@@ -1,10 +1,11 @@
 ﻿using FluentResults;
+using HH.Application.Files;
+using FileInfo = HH.Application.Files.FileInfo;
 using HH.Application.UnitOfWork;
 using HH.Common.Contracts.Handlers;
-using HH.Domain.Interfaces.Repository;
 using HH.Domain.Interfaces.Services;
+using HH.Application.Messaging;
 using HH.Domain.Shared.Files;
-using System.Diagnostics;
 
 namespace HH.Application.Features.Vacancies.UploadFile
 {
@@ -13,12 +14,19 @@ namespace HH.Application.Features.Vacancies.UploadFile
         private readonly IMinioProvider _minio;
         private readonly IVacancyService _vacancyService;
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IMessageQueue<IEnumerable<FileInfo>> _queue;
+        private const string BucketName = "files";
 
-        public UploadFileCommandHandler(IMinioProvider minio, IVacancyService vacancyService, IUnitOfWork unitOfWork)
+        public UploadFileCommandHandler(
+            IMinioProvider minio, 
+            IVacancyService vacancyService, 
+            IUnitOfWork unitOfWork, 
+            IMessageQueue<IEnumerable<FileInfo>> queue)
         {
             _minio = minio;
             _vacancyService = vacancyService;
             _unitOfWork = unitOfWork;
+            _queue = queue;
         }
 
         public async Task<Result<Guid>> Handle(UploadFileCommand request, CancellationToken cancellationToken)
@@ -27,11 +35,34 @@ namespace HH.Application.Features.Vacancies.UploadFile
             if (vacancy.IsFailed)
                 return vacancy.ToResult();
            
-            var result = await _minio.UploadImage(request.File);
-            if (result.IsFailed)
-                return result.ToResult();
+            List<FileData> files = [];
 
-            vacancy.Value.UpdateFile(result.Value);
+            foreach(var file in request.Files)
+            {
+                var extension = Path.GetExtension(file.FileName);
+                var filePath = FilePath.Create(file.FileName, extension);
+                
+                if (filePath.IsFailed)
+                    return filePath.ToResult();
+
+                var fileData = new FileData(file.Stream, new FileInfo(filePath.Value, BucketName));
+
+                files.Add(fileData);    
+
+            }
+
+            var result = await _minio.UploadFiles(files, cancellationToken);
+
+            if (result.IsFailed)
+            {
+                await _queue.WriteAsync(files.Select(f => f.Info), cancellationToken);
+                return result.ToResult();
+            }
+            var itemFile = result.Value
+                .Select(f => new ItemFile(f))
+                .ToList();
+
+            vacancy.Value.UpdateFile(itemFile);
             await _unitOfWork.SaveChangesAsync(cancellationToken);
 
             return vacancy.Value.Id;

@@ -1,4 +1,5 @@
 ﻿using FluentResults;
+using HH.Domain.Shared.Files;
 
 namespace HH.Application.Files;
 public interface IMinioProvider

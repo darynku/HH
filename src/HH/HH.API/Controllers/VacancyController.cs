@@ -1,4 +1,5 @@
-﻿using HH.Application.Features.Users.Get;
+﻿using HH.API.Proccesors;
+using HH.Application.Features.Users.Get;
 using HH.Application.Features.Vacancies.Apply;
 using HH.Application.Features.Vacancies.Create;
 using HH.Application.Features.Vacancies.Get;
@@ -44,15 +45,16 @@ namespace HH.API.Controllers
 
         [HttpPost("{vacancyId:guid}/file")]
         public async Task<IActionResult> UploadFile(
-            IFormFile file,
             [FromRoute] Guid vacancyId,
+            [FromForm] IFormFileCollection files,
             CancellationToken cancellationToken)
         {
-            var command = new UploadFileCommand(vacancyId, file);
-            var result = await _sender.Send(command, cancellationToken);
-            if (result.IsFailed)
-                return BadRequest(result.ToResult());
-            return Ok(result);
+            await using var fileProccessor = new FIleProccessor();
+            var fileDtos = fileProccessor.Proccess(files);
+
+            var command = new UploadFileCommand(vacancyId, fileDtos);
+
+            return ValidationActionResult(await _sender.Send(command, cancellationToken));
         }
     }
 }

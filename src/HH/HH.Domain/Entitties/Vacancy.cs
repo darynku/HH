@@ -1,6 +1,7 @@
 ﻿using FluentResults;
 using HH.Domain.Common;
 using HH.Domain.Entitties.ValueObjects;
+using HH.Domain.Shared.Files;
 namespace HH.Domain.Entitties;
 
 public class Vacancy : BaseEntity
@@ -13,7 +14,9 @@ public class Vacancy : BaseEntity
     public DateTime PostedDate { get; init; } = DateTime.UtcNow; // Когда была создана
     public Guid UserId { get; init; }
     public User User { get; init; } = null!; 
-    public string ItemFile { get; set; } = string.Empty; // Файл для вакансии
+
+    private List<ItemFile> _files = [];
+    public IReadOnlyList<ItemFile> Files => _files; // Файл для вакансии
 
     public string Region { get; init; } = string.Empty; //Регион где будет работа
     public int Views { get; private set; } = 0; //Просмотры
@@ -24,7 +27,7 @@ public class Vacancy : BaseEntity
 
     private Vacancy(
         Guid id,
-        string itemFile,
+        IEnumerable<ItemFile> files,
         string title,
         string description,
         SalaryRange salary,
@@ -35,7 +38,7 @@ public class Vacancy : BaseEntity
         int workExperience,
         DateTime expirationDate) : base(id)
     {
-        ItemFile = itemFile;
+        _files = files.ToList() ?? new List<ItemFile>();
         Title = title;
         Description = description;
         Salary = salary;
@@ -49,7 +52,7 @@ public class Vacancy : BaseEntity
 
     public static Result<Vacancy> Create(
         Guid id,
-        string itemFile,
+        IEnumerable<ItemFile> files,
         string title,
         string description,
         SalaryRange salary,
@@ -71,7 +74,7 @@ public class Vacancy : BaseEntity
 
         var vacancy = new Vacancy(
             Guid.NewGuid(),
-            itemFile,
+            files,
             title,
             description,
             salary,
@@ -85,9 +88,9 @@ public class Vacancy : BaseEntity
         return Result.Ok(vacancy);
     }
 
-    public void UpdateFile(string itemFile)
+    public void UpdateFile(List<ItemFile> files)
     {
-        ItemFile = itemFile;
+        _files = files;
     }
     // Увеличить количество просмотров
     public void IncrementViews()

@@ -16,7 +16,7 @@ builder.Services.AddControllers();
 builder.Services.AddSignalR();
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.SwaggerGenWithAuth();
+builder.Services.SwaggerGenWithAuthorization();
 
 builder.Services
     .AddApplication(builder.Configuration)

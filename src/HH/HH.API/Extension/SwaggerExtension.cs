@@ -6,7 +6,7 @@ namespace HH.API.Extension
 {
     public static class SwaggerExtension
     {
-        public static IServiceCollection SwaggerGenWithAuth(this IServiceCollection services)
+        public static IServiceCollection SwaggerGenWithAuthorization(this IServiceCollection services)
         {
             services.AddSwaggerGen(o =>
             {
