@@ -1,6 +1,6 @@
-﻿using HH.Common.Contracts.DTO;
+﻿#pragma warning disable CS8613
+using HH.Application.DTO;
 using HH.Common.Contracts.Handlers;
-using HH.Domain.Interfaces.Repository;
 using Microsoft.Extensions.Caching.Distributed;
 using System.Text.Json;
 
@@ -16,6 +16,7 @@ namespace HH.Application.Features.Vacancies.Get
             _cache = cache;
         }
 
+ 
         public async Task<IEnumerable<VacancyDto>?> Handle(GetOnlyVacanciesQuery request, CancellationToken cancellationToken)
         {
             string cacheKey = $"vacancies_{request.Page}_{request.PageSize}";

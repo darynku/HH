@@ -3,8 +3,7 @@ using HH.Application.Features.Users.Register.Rab;
 using HH.Common.Contracts.Handlers;
 using HH.Domain.Common;
 using HH.Domain.Entitties;
-using HH.Domain.Interfaces.Repository;
-using HH.Domain.Interfaces.Services;
+using HH.Domain.Interfaces;
 
 namespace HH.Application.Features.Users.Register.Boss
 {

@@ -6,8 +6,9 @@ services:
     build:
       context: .
       dockerfile: HH.API/Dockerfile
-    depends_on:
-    - postgres
+    ports:
+    - "5000:5000"
+    - "5001:5001"
      
   postgres:
     image: postgres:latest
@@ -15,12 +16,11 @@ services:
     ports:
       - 5432:5432 
     environment:
-      - POSTGRES_DB=proj
+      - POSTGRES_DB=hh60
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=123
     volumes:
       - postgres_data:/var/lib/postgresql/data
-    restart: always
 
   minio:
     image: minio/minio

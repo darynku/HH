@@ -1,6 +1,6 @@
 ﻿using FluentResults;
+using HH.Application.DTO;
 using HH.Common.Contracts.Common;
-using HH.Common.Contracts.DTO;
 using Microsoft.AspNetCore.Http;
 
 namespace HH.Application.Features.Vacancies.UploadFile

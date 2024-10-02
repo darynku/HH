@@ -36,7 +36,7 @@ namespace HH.Infrastructure.Migrations
                     Description = table.Column<string>(type: "text", nullable: false),
                     PostedDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     UserId = table.Column<Guid>(type: "uuid", nullable: false),
-                    ItemFile = table.Column<string>(type: "text", nullable: true),
+                    files = table.Column<string>(type: "jsonb", nullable: true),
                     Region = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
                     Views = table.Column<int>(type: "integer", nullable: false, defaultValue: 0),
                     Position = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),

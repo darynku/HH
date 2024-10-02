@@ -1,6 +1,6 @@
 ﻿using HH.Domain.Entitties;
 
-namespace HH.Domain.Interfaces.Services
+namespace HH.Domain.Interfaces
 {
     public interface IJwtProvider
     {

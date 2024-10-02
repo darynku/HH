@@ -1,8 +1,8 @@
 ﻿using FluentResults;
-using HH.Common.Contracts.DTO;
+using HH.Application.DTO;
 using HH.Domain.Entitties;
 
-namespace HH.Domain.Interfaces.Repository
+namespace HH.Application.Features.Vacancies
 {
     public interface IVacancyRepository
     {

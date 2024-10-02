@@ -13,7 +13,7 @@ namespace HH.Application.Features.Vacancies.Create
         DateTime PostedDate,
         Guid UserId,
         string Region,
-        string Posintion,
+        string Position,
         int WorkExpirience,
         DateTime ExpirationDate) : ICommand<Result<Guid>>;
 }

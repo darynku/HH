@@ -12,7 +12,7 @@ const routes = [
   { path: '/register/boss', name: 'boss-register', component: RabForm },
   { path: '/login', name: 'login', component: Login },
   { path: '/vacancies/all', name: 'vacancies', component: Vacancies},
-  { path: '/vacancies/create', name: 'vacancies-create', component: VacancyCreate}
+  { path: '/vacancies/create', name: 'vacancies-create', component: VacancyCreate }
 ];
 const router = createRouter({
   history: createWebHistory(),

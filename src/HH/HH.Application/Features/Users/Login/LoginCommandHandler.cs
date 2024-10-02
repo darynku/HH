@@ -1,7 +1,6 @@
 ﻿using FluentResults;
 using HH.Common.Contracts.Handlers;
-using HH.Domain.Interfaces.Repository;
-using HH.Domain.Interfaces.Services;
+using HH.Domain.Interfaces;
 using Microsoft.AspNetCore.Http;
 
 namespace HH.Application.Features.Users.Login
@@ -31,7 +30,7 @@ namespace HH.Application.Features.Users.Login
 
             string token = _jwtProvider.Generate(user.Value);
 
-            _contextAccessor.HttpContext.Response.Cookies.Append("jwt", token);
+            
 
             var respones = new UserRespones(user.Value.Id, token);
             return respones;

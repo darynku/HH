@@ -1,6 +1,5 @@
-﻿using HH.Common.Contracts.DTO;
+﻿using HH.Application.DTO;
 using HH.Common.Contracts.Handlers;
-using HH.Domain.Interfaces.Repository;
 
 namespace HH.Application.Features.Users.Get
 {

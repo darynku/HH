@@ -1,7 +1,6 @@
 ﻿using FluentResults;
+using HH.Application.Features.Users;
 using HH.Domain.Entitties;
-using HH.Domain.Interfaces.Repository;
-using HH.Domain.Interfaces.Services;
 
 namespace HH.Application.Services
 {

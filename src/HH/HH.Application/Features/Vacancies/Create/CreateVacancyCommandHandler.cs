@@ -2,8 +2,8 @@
 using HH.Common.Contracts.Handlers;
 using FluentResults;
 using HH.Application.UnitOfWork;
-using HH.Domain.Interfaces.Repository;
 using HH.Domain.Entitties.ValueObjects;
+using HH.Application.Features.Users;
 
 namespace HH.Application.Features.Vacancies.Create
 {
@@ -30,14 +30,14 @@ namespace HH.Application.Features.Vacancies.Create
 
             var vacancy = Vacancy.Create(
                 Guid.NewGuid(),
-                null,
+                [],
                 request.Title,
                 request.Description,
                 salaryRange.Value,
                 request.PostedDate,
                 user.Value.Id,
                 request.Region,
-                request.Posintion,
+                request.Position,
                 request.WorkExpirience,
                 request.ExpirationDate);
 

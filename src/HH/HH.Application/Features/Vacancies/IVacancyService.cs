@@ -1,7 +1,7 @@
 ﻿using FluentResults;
 using HH.Domain.Entitties;
 
-namespace HH.Domain.Interfaces.Services
+namespace HH.Application.Features.Vacancies
 {
     public interface IVacancyService
     {

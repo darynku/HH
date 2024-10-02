@@ -1,5 +1,6 @@
 ﻿using HH.API.Proccesors;
 using HH.Application.Features.Users.Get;
+using HH.Application.Features.Vacancies;
 using HH.Application.Features.Vacancies.Apply;
 using HH.Application.Features.Vacancies.Create;
 using HH.Application.Features.Vacancies.Get;
@@ -14,10 +15,12 @@ namespace HH.API.Controllers
     public class VacancyController : ApplicationController
     {
         private readonly ISender _sender;
+        private readonly IVacancyService _vacancyService;
 
-        public VacancyController(ISender sender)
+        public VacancyController(ISender sender, IVacancyService vacancyService)
         {
             _sender = sender;
+            _vacancyService = vacancyService;
         }
 
         [Authorize(Roles = "Boss")]
@@ -25,8 +28,6 @@ namespace HH.API.Controllers
         public async Task<IActionResult> GetAll([FromQuery] GetOnlyVacanciesQuery query, CancellationToken cancellationToken)
         {
             var result = await _sender.Send(query, cancellationToken);
-            if(result.AsEnumerable().IsNullOrEmpty())
-                return NotFound();  
             return Ok(result);
         }
 
@@ -42,6 +43,15 @@ namespace HH.API.Controllers
         {
             return ValidationActionResult(await _sender.Send(command, ct));
         }
+        [HttpGet("{vacancyId:guid}")]
+        public async Task<IActionResult> GetFullVacancy([FromRoute] Guid vacancyId, CancellationToken cancellationToken)
+        {
+            var result = await _vacancyService.GetById(vacancyId, cancellationToken);
+            if (result.IsFailed)
+                return BadRequest(result.ToResult());
+            return Ok(result.Value);
+        }
+
 
         [HttpPost("{vacancyId:guid}/file")]
         public async Task<IActionResult> UploadFile(

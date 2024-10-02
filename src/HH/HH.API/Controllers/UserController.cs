@@ -1,9 +1,8 @@
-﻿using HH.Application.Features.Users.Get;
+﻿using HH.Application.Features.Users;
+using HH.Application.Features.Users.Get;
 using HH.Application.Features.Users.Login;
 using HH.Application.Features.Users.Register.Boss;
 using HH.Application.Features.Users.Register.Rab;
-using HH.Domain.Interfaces.Repository;
-using HH.Domain.Interfaces.Services;
 using HH.Infrastructure.Database;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -48,7 +47,10 @@ namespace HH.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginCommand commamd, CancellationToken ct)
         {
-            return ValidationActionResult(await _sender.Send(commamd, ct));
+            var result = await _sender.Send(commamd, ct);
+            if (result.IsFailed)
+                return BadRequest(result.ToResult());
+            return Ok(result.Value);
         }
     }
 }

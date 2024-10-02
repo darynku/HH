@@ -1,5 +1,5 @@
 ﻿
-using HH.Common.Contracts.DTO;
+using HH.Application.DTO;
 
 namespace HH.API.Proccesors;
 

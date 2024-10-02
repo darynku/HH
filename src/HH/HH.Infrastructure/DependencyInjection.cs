@@ -1,7 +1,6 @@
 ﻿using HH.Application.Files;
+using HH.Application.Messaging;
 using HH.Application.UnitOfWork;
-using HH.Domain.Interfaces.Repository;
-using HH.Domain.Interfaces.Services;
 using HH.Infrastructure.Database;
 using HH.Infrastructure.Options;
 using HH.Infrastructure.Providers;
@@ -11,8 +10,16 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Minio;
-using System.IdentityModel.Tokens.Jwt;
+using FileInfo = HH.Application.Files.FileInfo;
 using System.Text;
+using HH.Infrastructure.MessageQueues;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authentication;
+using StackExchange.Redis;
+using Microsoft.AspNetCore.Authorization;
+using HH.Application.Features.Users;
+using HH.Application.Features.Vacancies;
+using HH.Domain.Interfaces;
 namespace HH.Infrastructure;
 
 public static class DependencyInjection
@@ -26,7 +33,7 @@ public static class DependencyInjection
                 .AddJwtAuth(configuration)
                 .AddStorage(configuration);
 
-
+        services.AddSingleton<IMessageQueue<IEnumerable<FileInfo>>, MessageQueue<IEnumerable<FileInfo>>>();
         return services;
     }
     public static IServiceCollection AddRepositoriess(this IServiceCollection services)
@@ -47,8 +54,14 @@ public static class DependencyInjection
         services.Configure<JwtOptions>(configuration.GetSection("Jwt"));
         
         services
-            .AddAuthentication()
-            .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
+            .AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultSignInScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
             {
                 var key = configuration.GetSection(JwtOptions.Jwt).Get<JwtOptions>()
                                                     ?? throw new ApplicationException("Wrong configuration");
@@ -68,16 +81,6 @@ public static class DependencyInjection
                 {
                     OnMessageReceived = context =>
                     {
-                        //var accessToken = context.Request.Query["access_token"];
-                        //var path = context.HttpContext.Request.Path;
-                        //if(!string.IsNullOrEmpty(accessToken) && path.StartsWithSegments("/chatHub"))
-                        //{
-                        //    context.Token = accessToken;
-                        //}
-
-                        context.Token = context.Request.Cookies["jwt"];
-                    
-
                         return Task.CompletedTask;
                     }
                 };

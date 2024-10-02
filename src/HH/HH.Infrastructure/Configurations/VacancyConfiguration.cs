@@ -1,4 +1,8 @@
-﻿using HH.Domain.Entitties;
+﻿
+using HH.Application.DTO;
+using HH.Domain.Entitties;
+using HH.Domain.Shared.Files;
+using HH.Infrastructure.Extension;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 namespace HH.Infrastructure.Configurations
@@ -50,8 +54,13 @@ namespace HH.Infrastructure.Configurations
                    .HasDefaultValue(0) // По умолчанию 0
                    .IsRequired();
 
-            builder.Property(v => v.ItemFile)
-                   .IsRequired(false); // Файл не обязателен
+
+            builder.Property(v => v.Files)
+                .ValueObjectsCollectionJsonConversion(
+                file => new ItemFileDto { PathToStorage = file.PathToStorage.Path },
+                dto => new ItemFile(FilePath.Create(dto.PathToStorage).Value))
+                .HasColumnName("files")
+                .IsRequired(false); // Файл не обязателен
 
             // Связь с пользователем (владельцем вакансии)
             builder.HasOne(v => v.User)

@@ -3,7 +3,6 @@ using HH.Application.Files;
 using FileInfo = HH.Application.Files.FileInfo;
 using HH.Application.UnitOfWork;
 using HH.Common.Contracts.Handlers;
-using HH.Domain.Interfaces.Services;
 using HH.Application.Messaging;
 using HH.Domain.Shared.Files;
 

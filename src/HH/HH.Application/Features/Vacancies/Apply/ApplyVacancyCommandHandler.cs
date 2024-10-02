@@ -1,9 +1,8 @@
 ﻿using FluentResults;
+using HH.Application.Features.Users;
 using HH.Application.UnitOfWork;
 using HH.Common.Contracts.Handlers;
 using HH.Domain.Entitties;
-using HH.Domain.Interfaces.Repository;
-using HH.Domain.Interfaces.Services;
 using Microsoft.AspNetCore.Http;
 using System.Security.Claims;
 

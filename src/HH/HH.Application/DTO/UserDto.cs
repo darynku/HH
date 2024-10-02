@@ -1,4 +1,4 @@
-﻿namespace HH.Common.Contracts.DTO
+﻿namespace HH.Application.DTO
 {
     public record UserDto
     {

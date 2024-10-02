@@ -7,7 +7,6 @@ namespace HH.Application.Chat.Hubs;
 
 public interface IChatService
 {
-    
 }
 public class ChatHub : Hub
 {
@@ -36,9 +35,5 @@ public class ChatHub : Hub
     public async Task SendPrivateMessage(string connectionId, string message)
     {
         await Clients.Client(connectionId).SendAsync("ReceiveMessage", message);
-    }
-
-    protected override async void Dispose(bool disposing)
-    {
     }
 }

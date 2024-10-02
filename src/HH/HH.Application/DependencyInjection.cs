@@ -1,5 +1,6 @@
-﻿using HH.Application.Services;
-using HH.Domain.Interfaces.Services;
+﻿using HH.Application.Features.Users;
+using HH.Application.Features.Vacancies;
+using HH.Application.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;

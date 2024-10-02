@@ -1,5 +1,5 @@
 ﻿using HH.Domain.Entitties;
-using HH.Domain.Interfaces.Services;
+using HH.Domain.Interfaces;
 using HH.Infrastructure.Options;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.JsonWebTokens;

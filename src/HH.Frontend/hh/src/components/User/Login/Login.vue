@@ -1,47 +1,35 @@
 <template>
   <section class="bg-gray-50 dark:bg-gray-900">
-    <Notification :message="errorMessage" :visible="showError" />
-
     <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-      <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+      <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
+        <img class="w-8 h-8 mr-2" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg" alt="logo">
+        Вход в аккаунт
+      </a>
+      <div
+        class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
         <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
           <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-            Создание вакансии
+            Войти в ваш аккаунт
           </h1>
-          <form @submit.prevent="createVacancy">
+          <form @submit.prevent="login">
             <div>
-              <label for="title" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Название</label>
-              <input v-model="form.title" type="text" id="title" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" required>
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ваш email</label>
+              <input v-model="form.email" type="email" id="email"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="name@company.com" required>
             </div>
             <div>
-              <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Описание</label>
-              <textarea v-model="form.description" id="description" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" required></textarea>
+              <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Пароль</label>
+              <input v-model="form.password" type="password" id="password" placeholder="••••••••"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                required>
             </div>
-            <div>
-              <label for="minSalary" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Минимальная зарплата</label>
-              <input v-model="form.minSalary" type="number" id="minSalary" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" required>
-            </div>
-            <div>
-              <label for="maxSalary" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Максимальная зарплата</label>
-              <input v-model="form.maxSalary" type="number" id="maxSalary" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" required>
-            </div>
-            <div>
-              <label for="region" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Регион</label>
-              <input v-model="form.region" type="text" id="region" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" required>
-            </div>
-            <div>
-              <label for="position" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Должность</label>
-              <input v-model="form.position" type="text" id="position" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" required>
-            </div>
-            <div>
-              <label for="workExperience" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Опыт работы (в годах)</label>
-              <input v-model="form.workExperience" type="number" id="workExperience" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" required>
-            </div>
-            <div>
-              <label for="expirationDate" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Срок истечения</label>
-              <input v-model="form.expirationDate" type="date" id="expirationDate" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" required>
-            </div>
-            <button type="submit" class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Создать вакансию</button>
+            <button type="submit"
+              class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Войти</button>
+            <p class="text-sm font-light text-gray-500 dark:text-gray-400">
+              Нет аккаунта? <a href="/register"
+                class="font-medium text-primary-600 hover:underline dark:text-primary-500">Зарегистрируйтесь здесь</a>
+            </p>
           </form>
         </div>
       </div>
@@ -50,87 +38,72 @@
 </template>
 
 <script>
-import axios from 'axios';
-import { ref } from 'vue';
-import Notification from '../../User/Notification.vue';
+import axios from "axios";
+import { ref } from "vue";
+import { useRouter } from "vue-router";
 
 export default {
-  name: 'CreateVacancy',
-  components: {
-    Notification
-  },
+  name: "Login",
   setup() {
     const form = ref({
-      title: '',
-      description: '',
-      minSalary: '',
-      maxSalary: '',
-      region: '',
-      position: '',
-      workExperience: '',
-      expirationDate: ''
+      email: "",
+      password: "",
     });
-    const errorMessage = ref('');
-    const showError = ref(false);
 
-    // Получение данных пользователя из токена (ID и роль)
-    const getUserDataFromToken = () => {
-      const token = document.cookie.split('; ').find(row => row.startsWith('jwt'));
-      if (!token) return null;
-      const jwt = token.split('=')[1];
-      const payload = JSON.parse(atob(jwt.split('.')[1]));
-      return {
-        userId: payload.sub, // Замените на свой ключ из токена
-        role: payload.role // Предполагается, что роль хранится здесь
-      };
-    };
+    const router = useRouter();
 
-    const createVacancy = async () => {
-      const userData = getUserDataFromToken();
-      if (!userData) {
-        errorMessage.value = 'Пользователь не найден';
-        showError.value = true;
-        return;
+    // Добавляем interceptor для axios
+    axios.interceptors.request.use((config) => {
+      const token = localStorage.getItem("token");
+      if (token) {
+        // Добавляем токен в заголовки запроса
+        config.headers.Authorization = `Bearer ${token}`;
       }
+      return config;
+    });
 
-      // Проверка роли пользователя
-      if (userData.role !== 'Boss') {
-        errorMessage.value = 'Недостаточно прав для создания вакансии';
-        showError.value = true;
-        return;
-      }
-
+    const login = async () => {
       try {
-        const response = await axios.post('https://localhost:64917/api/Vacancy/create', {
-          title: form.value.title,
-          description: form.value.description,
-          minSalary: form.value.minSalary,
-          maxSalary: form.value.maxSalary,
-          postedDate: new Date(),
-          userId: userData.userId,
-          region: form.value.region,
-          position: form.value.position,
-          workExperience: form.value.workExperience,
-          expirationDate: form.value.expirationDate
+        const response = await axios.post("https://localhost:5001/api/User/login", {
+          email: form.value.email,
+          password: form.value.password,
         });
-        console.log('Вакансия создана:', response.data);
-        // Очистка формы или перенаправление пользователя
+
+        const token = response.data.value.token;
+
+        // Сохраняем токен в localStorage
+        localStorage.setItem("jwt", token);
+
+        // Перенаправление после успешного входа
+        await router.push("/vacancies/all");
       } catch (error) {
-        errorMessage.value = error.response?.data || 'Ошибка при создании вакансии';
-        showError.value = true;
+        console.error("Ошибка входа:", error.response ? error.response.data : error.message);
       }
     };
 
     return {
       form,
-      createVacancy,
-      errorMessage,
-      showError
+      login,
     };
-  }
-}
+  },
+};
 </script>
 
 <style scoped>
-/* Можно добавить стили при необходимости */
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
 </style>

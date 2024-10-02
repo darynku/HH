@@ -70,8 +70,9 @@ namespace HH.Infrastructure.Migrations
                     b.Property<DateTime>("ExpirationDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("ItemFile")
-                        .HasColumnType("text");
+                    b.Property<string>("Files")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("files");
 
                     b.Property<string>("Position")
                         .IsRequired()

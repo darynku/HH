@@ -1,5 +1,5 @@
-﻿using HH.Common.Contracts.Common;
-using HH.Common.Contracts.DTO;
+﻿using HH.Application.DTO;
+using HH.Common.Contracts.Common;
 
 namespace HH.Application.Features.Vacancies.Get
 {

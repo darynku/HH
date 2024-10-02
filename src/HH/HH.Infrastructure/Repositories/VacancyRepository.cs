@@ -1,7 +1,7 @@
 ﻿using FluentResults;
-using HH.Common.Contracts.DTO;
+using HH.Application.DTO;
+using HH.Application.Features.Vacancies;
 using HH.Domain.Entitties;
-using HH.Domain.Interfaces.Repository;
 using HH.Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
 
@@ -38,6 +38,7 @@ namespace HH.Infrastructure.Repositories
 
         public async Task<IEnumerable<VacancyDto>> GetAll(int page, int pageSize, CancellationToken cancellationToken = default)
         {
+
             IQueryable<Vacancy> vacancies = _context.Vacancy;
 
             var result = await vacancies
@@ -47,7 +48,14 @@ namespace HH.Infrastructure.Repositories
                 .Select(v => new VacancyDto
                 {
                     Title = v.Title,
-                    Description = v.Description
+                    Description = v.Description,
+                    PostedDate = v.PostedDate,
+                    Position = v.Position,
+                    WorkExpiriece = v.WorkExperience,
+                    Region = v.Region,
+                    Salary = v.Salary,
+                    Views = v.Views
+                    
                 })
                 .ToListAsync(cancellationToken);
 

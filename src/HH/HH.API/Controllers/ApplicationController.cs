@@ -1,4 +1,5 @@
 ﻿using FluentResults;
+using FluentResults.Extensions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HH.API.Controllers
@@ -13,6 +14,5 @@ namespace HH.API.Controllers
                 return BadRequest(string.Join(",", result.Reasons.Select(m => m.Message)));
             return Ok(result);
         }
-
     }
 }

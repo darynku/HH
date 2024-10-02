@@ -1,7 +1,7 @@
 ﻿using HH.Domain.Entitties;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
-
 
 namespace HH.Infrastructure.Database
 {
@@ -14,7 +14,6 @@ namespace HH.Infrastructure.Database
 
         public DbSet<User> Users => Set<User>();
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
@@ -23,7 +22,11 @@ namespace HH.Infrastructure.Database
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql(_configuration.GetConnectionString("Default"));
+            optionsBuilder.EnableSensitiveDataLogging();
+            optionsBuilder.UseLoggerFactory(CreateLoggerfFactory());
         }
+        private ILoggerFactory CreateLoggerfFactory() =>
+            LoggerFactory.Create(builder => { builder.AddConsole(); });
     } 
     
 }
