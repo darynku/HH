@@ -88,9 +88,10 @@ public class Vacancy : BaseEntity
         return Result.Ok(vacancy);
     }
 
-    public void UpdateFile(List<ItemFile> files)
+
+    public void AddFiles(List<ItemFile> files)
     {
-        _files = files;
+        _files.AddRange(files);
     }
     // Увеличить количество просмотров
     public void IncrementViews()

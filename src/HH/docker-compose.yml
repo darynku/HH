@@ -1,5 +1,9 @@
 version: '3.4'
 
+networks:
+  app-network:
+    driver: bridge
+
 services:
   hh.api:
     image: ${DOCKER_REGISTRY-}hhapi
@@ -7,20 +11,24 @@ services:
       context: .
       dockerfile: HH.API/Dockerfile
     ports:
-    - "5000:5000"
-    - "5001:5001"
-     
+      - "5000:5000"
+      - "5001:5001"
+    networks:
+      - app-network
+  
   postgres:
     image: postgres:latest
-    container_name: postgres
+    container_name: postgresDB
     ports:
-      - 5432:5432 
+      - "5432:5432" 
     environment:
       - POSTGRES_DB=hh60
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=123
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app-network
 
   minio:
     image: minio/minio
@@ -34,14 +42,19 @@ services:
       MINIO_ROOT_USER: "minioadmin"
       MINIO_ROOT_PASSWORD: "minioadmin"
     command: server --console-address ":9001" /data
+    networks:
+      - app-network
 
   redis:
     container_name: redis
     image: redis
     ports:
-      - 6379:6379
+      - "6379:6379"
     restart: always
+    networks:
+      - app-network
 
 volumes:
   minio_storage:
   postgres_data:
+

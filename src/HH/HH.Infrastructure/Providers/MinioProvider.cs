@@ -1,11 +1,10 @@
 ﻿using FluentResults;
 using HH.Application.Files;
 using HH.Domain.Shared.Files;
-using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Logging;
 using Minio;
-using Minio.DataModel;
 using Minio.DataModel.Args;
+using Minio.Exceptions;
 
 namespace HH.Infrastructure.Providers;
 
@@ -22,6 +21,30 @@ public class MinioProvider : IMinioProvider
         _logger = logger;
     }
 
+    public async Task<string> CreatePresignedUrl(Application.Files.FileInfo fileInfo, int expirationTime)
+    {
+        try
+        {
+            var localMinioClient = new MinioClient()
+                .WithEndpoint("localhost:9000") 
+                .WithCredentials("minioadmin", "minioadmin")
+                .Build();
+
+            var args = new PresignedGetObjectArgs()
+                .WithBucket(fileInfo.BucketName)
+                .WithObject(fileInfo.FilePath.Path)
+                .WithExpiry(expirationTime); // Убедитесь, что передаете правильный тип
+
+            string url = await localMinioClient.PresignedGetObjectAsync(args);
+
+            return url;
+        }
+        catch (MinioException ex)
+        {
+            _logger.LogError($"Error while creating URL: {ex}");
+            throw;
+        }
+    }
     public async Task<Result<IReadOnlyList<FilePath>>> UploadFiles(
         IEnumerable<FileData> filesData,
         CancellationToken cancellationToken = default)

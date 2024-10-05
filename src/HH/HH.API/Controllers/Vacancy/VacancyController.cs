@@ -1,16 +1,18 @@
 ﻿using HH.API.Proccesors;
+using HH.Application.DTO;
 using HH.Application.Features.Users.Get;
 using HH.Application.Features.Vacancies;
 using HH.Application.Features.Vacancies.Apply;
 using HH.Application.Features.Vacancies.Create;
 using HH.Application.Features.Vacancies.Get;
+using HH.Application.Features.Vacancies.Get.GetFullVacancy;
 using HH.Application.Features.Vacancies.UploadFile;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 
-namespace HH.API.Controllers
+namespace HH.API.Controllers.Vacancy
 {
     public class VacancyController : ApplicationController
     {
@@ -31,7 +33,7 @@ namespace HH.API.Controllers
             return Ok(result);
         }
 
-        [HttpPost("create")] 
+        [HttpPost("create")]
         public async Task<IActionResult> Create([FromBody] CreateVacancyCommand command, CancellationToken ct)
         {
             return ValidationActionResult(await _sender.Send(command, ct));
@@ -46,12 +48,13 @@ namespace HH.API.Controllers
         [HttpGet("{vacancyId:guid}")]
         public async Task<IActionResult> GetFullVacancy([FromRoute] Guid vacancyId, CancellationToken cancellationToken)
         {
-            var result = await _vacancyService.GetById(vacancyId, cancellationToken);
+
+            var query = new GetFullVacancyQuery(vacancyId);
+            var result = await _sender.Send(query, cancellationToken);
             if (result.IsFailed)
-                return BadRequest(result.ToResult());
+                return NotFound(result.Reasons.Select(m => m.Message));
             return Ok(result.Value);
         }
-
 
         [HttpPost("{vacancyId:guid}/file")]
         public async Task<IActionResult> UploadFile(

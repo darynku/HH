@@ -38,8 +38,8 @@ namespace HH.Application.Features.Vacancies.UploadFile
 
             foreach(var file in request.Files)
             {
-                var extension = Path.GetExtension(file.FileName);
-                var filePath = FilePath.Create(file.FileName, extension);
+                
+                var filePath = FilePath.Create(file.FileName);
                 
                 if (filePath.IsFailed)
                     return filePath.ToResult();
@@ -61,7 +61,7 @@ namespace HH.Application.Features.Vacancies.UploadFile
                 .Select(f => new ItemFile(f))
                 .ToList();
 
-            vacancy.Value.UpdateFile(itemFile);
+            vacancy.Value.AddFiles(itemFile);
             await _unitOfWork.SaveChangesAsync(cancellationToken);
 
             return vacancy.Value.Id;

@@ -110,8 +110,8 @@ public static class DependencyInjection
             configClient =>
         {
             configClient
-                .WithEndpoint("minio:9000")
-                .WithCredentials("minioadmin", "minioadmin")
+                .WithEndpoint(minioOptions.Endpoint)
+                .WithCredentials(minioOptions.AccessKey, minioOptions.SecretKey)
                 .WithSSL(false)
                 .Build();
         });

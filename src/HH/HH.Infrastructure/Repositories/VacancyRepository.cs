@@ -51,7 +51,7 @@ namespace HH.Infrastructure.Repositories
                     Description = v.Description,
                     PostedDate = v.PostedDate,
                     Position = v.Position,
-                    WorkExpiriece = v.WorkExperience,
+                    WorkExperience = v.WorkExperience,
                     Region = v.Region,
                     Salary = v.Salary,
                     Views = v.Views
