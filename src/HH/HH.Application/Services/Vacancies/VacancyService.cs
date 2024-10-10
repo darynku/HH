@@ -2,7 +2,7 @@
 using HH.Application.Features.Vacancies;
 using HH.Domain.Entitties;
 
-namespace HH.Application.Services
+namespace HH.Application.Services.Vacancies
 {
     public class VacancyService : IVacancyService
     {

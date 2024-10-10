@@ -1,6 +1,7 @@
 ﻿using FluentResults;
 using HH.Application.DTO;
 using HH.Application.Features.Vacancies;
+using HH.Application.Specifications.Abstraction;
 using HH.Domain.Entitties;
 using HH.Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
@@ -35,6 +36,34 @@ namespace HH.Infrastructure.Repositories
 
             return vacancy;
         }
+
+        public async Task<IEnumerable<VacancyDto>> GetAllBySpecification(ISpecification<Vacancy> spec, int page, int pageSize, CancellationToken cancellationToken = default)
+        {
+            IQueryable<Vacancy> vacancies = _context.Vacancy;
+
+            if (spec != null)
+                vacancies = vacancies.Where(spec.Criteria);
+
+            var result = await vacancies
+                .AsNoTracking()
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .Select(v => new VacancyDto
+                {
+                    Title = v.Title,
+                    Description = v.Description,
+                    PostedDate = v.PostedDate,
+                    Position = v.Position,
+                    WorkExperience = v.WorkExperience,
+                    Region = v.Region,
+                    Salary = v.Salary,
+                    Views = v.Views
+                })
+                .ToListAsync(cancellationToken);
+
+            return result;
+        }
+
 
         public async Task<IEnumerable<VacancyDto>> GetAll(int page, int pageSize, CancellationToken cancellationToken = default)
         {
