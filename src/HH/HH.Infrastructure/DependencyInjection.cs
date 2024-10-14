@@ -31,7 +31,8 @@ public static class DependencyInjection
                 .AddServices()
                 .AddDatabase(configuration)
                 .AddJwtAuth(configuration)
-                .AddStorage(configuration);
+                .AddStorage(configuration)
+                .AddEmailConfiguration(configuration);
 
         services.AddSingleton<IMessageQueue<IEnumerable<FileInfo>>, MessageQueue<IEnumerable<FileInfo>>>();
         return services;
@@ -100,11 +101,22 @@ public static class DependencyInjection
 
         return services;
     }
+    public static IServiceCollection AddEmailConfiguration(this IServiceCollection services, IConfiguration configuration)
+    {
+        services.Configure<MailOptions>(configuration.GetSection("Email"));
+
+        var emailOptions = configuration.GetSection("Email").Get<MailOptions>() ?? throw new ArgumentNullException("Empty email configuration");
+
+        services
+            .AddFluentEmail(emailOptions.SenderEmail, emailOptions.Sender)
+            .AddSmtpSender(emailOptions.Host, emailOptions.Port);
+        return services;
+    }
     public static IServiceCollection AddStorage(this IServiceCollection services, IConfiguration configuration)
     {
         services.Configure<MinioOptions>(configuration.GetSection("Minio"));
 
-        var minioOptions = configuration.GetSection("Minio").Get<MinioOptions>() ?? throw new ArgumentNullException("no minio configs");
+        var minioOptions = configuration.GetSection("Minio").Get<MinioOptions>() ?? throw new ArgumentNullException("Empty Minio S3 configuration");
 
         services.AddMinio(
             configClient =>

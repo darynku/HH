@@ -16,10 +16,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.SwaggerGenWithAuthorization();
 
 builder.Services.AddCors(config => 
-                config.AddDefaultPolicy(options => 
-                        options.AllowAnyHeader()
+                config.AddDefaultPolicy(options =>
+                        options.WithOrigins("http://localhost:5173")
+                                .AllowAnyHeader()
                                 .AllowAnyMethod()
-                                .WithOrigins("http://localhost:5173")));
+                                .AllowCredentials()));
 
 builder.Services
     .AddApplication(builder.Configuration)

@@ -1,4 +1,5 @@
-﻿using FluentResults;
+﻿using FluentEmail.Core;
+using FluentResults;
 using HH.Common.Contracts.Handlers;
 using HH.Domain.Interfaces;
 using Microsoft.AspNetCore.Http;
@@ -10,11 +11,13 @@ namespace HH.Application.Features.Users.Login
         private readonly IUserRepository _userRepository;
         private readonly IJwtProvider _jwtProvider;
         private readonly IHttpContextAccessor _contextAccessor;
-        public LoginCommandHandler(IUserRepository userRepository, IJwtProvider jwtProvider, IHttpContextAccessor contextAccessor)
+        private readonly IFluentEmail _fluentEmail;
+        public LoginCommandHandler(IUserRepository userRepository, IJwtProvider jwtProvider, IHttpContextAccessor contextAccessor, IFluentEmail fluentEmail)
         {
             _userRepository = userRepository;
             _jwtProvider = jwtProvider;
             _contextAccessor = contextAccessor;
+            _fluentEmail = fluentEmail;
         }
 
         public async Task<Result<UserRespones>> Handle(LoginCommand request, CancellationToken cancellationToken)
@@ -29,8 +32,6 @@ namespace HH.Application.Features.Users.Login
                 return Result.Fail("Неправильный пароль");
 
             string token = _jwtProvider.Generate(user.Value);
-
-            
 
             var respones = new UserRespones(user.Value.Id, token);
             return respones;

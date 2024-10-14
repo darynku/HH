@@ -17,6 +17,12 @@ namespace HH.Application.Features.Vacancies.Get
         }
 
  
+        /// <summary>
+        /// Получение списка вакансикй на главной странице.
+        /// </summary>
+        /// <param name="request">Реквест для пагинации.</param>
+        /// <param name="cancellationToken">Токен отмены.</param>
+        /// <returns>Список ДТО вакансий.</returns>
         public async Task<IEnumerable<VacancyDto>?> Handle(GetOnlyVacanciesQuery request, CancellationToken cancellationToken)
         {
             string cacheKey = $"vacancies_{request.Page}_{request.PageSize}";

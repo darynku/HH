@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.Extensions.Logging;
 
 namespace HH.Application.Chat.Hubs;
 
@@ -10,21 +11,28 @@ public interface IChatService
 }
 public class ChatHub : Hub
 {
-    private readonly IHttpContextAccessor _httpContextAccessor;
+    private readonly ILogger<ChatHub> _logger;
     private readonly IDistributedCache _cache;
 
-    public ChatHub(IHttpContextAccessor httpContextAccessor, IDistributedCache cache)
+    public ChatHub(IDistributedCache cache,ILogger<ChatHub> logger)
     {
-        _httpContextAccessor = httpContextAccessor;
         _cache = cache;
+        _logger = logger;
     }
 
-    public async Task SendMessage(string message, CancellationToken cancellationToken = default)
+    public async Task SendMessage(string userName, string message)
     {
-        var userName = _httpContextAccessor.HttpContext!.User.Identity!.Name!;
         var messageModel = new Message(userName, message, DateTime.UtcNow);
 
-        await Clients.All.SendAsync("ReceiveMessage", messageModel, cancellationToken);
+        try
+        {
+            await Clients.All.SendAsync("ReceiveMessage", messageModel);
+        }
+        catch (HubException ex)
+        {
+            _logger.LogError($"Error while sending message with exteption {ex.Message}");
+            throw;
+        }
     }
 
     public async Task JoinChat(string chatName)

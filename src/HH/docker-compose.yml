@@ -54,6 +54,16 @@ services:
     networks:
       - app-network
 
+  papercut:
+    container_name: hh.papercut
+    image: changemakerstudiosus/papercut-smtp:latest
+    ports:
+      - 8080:80
+      - 25:25
+    networks:
+      - app-network
+
+
 volumes:
   minio_storage:
   postgres_data:

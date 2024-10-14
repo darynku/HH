@@ -31,7 +31,6 @@ namespace HH.API.Controllers
             return Ok(await _sender.Send(query, cancellationToken));
         }
 
-
      
         [HttpPost("registerRab")]
         public async Task<IActionResult> RegisterRab(RegisterRabCommamd commamd, CancellationToken ct)

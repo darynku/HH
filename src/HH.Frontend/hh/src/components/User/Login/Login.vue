@@ -54,7 +54,7 @@ export default {
 
     // Добавляем interceptor для axios
     axios.interceptors.request.use((config) => {
-      const token = localStorage.getItem("token");
+      const token = localStorage.getItem("jwt");
       if (token) {
         // Добавляем токен в заголовки запроса
         config.headers.Authorization = `Bearer ${token}`;
@@ -69,7 +69,7 @@ export default {
           password: form.value.password,
         });
 
-        const token = response.data.value.token;
+        const token = response.data.token;
 
         // Сохраняем токен в localStorage
         localStorage.setItem("jwt", token);

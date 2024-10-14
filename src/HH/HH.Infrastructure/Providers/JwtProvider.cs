@@ -25,7 +25,7 @@ namespace HH.Infrastructure.Providers
             var claims = new ClaimsIdentity([
                 new Claim("id", user.Id.ToString()),
                 new Claim("role", user.Role.ToString()),
-                new Claim(JwtRegisteredClaimNames.Name, user.UserName),
+                new Claim("userName", user.UserName),
                 new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
                 new Claim(JwtRegisteredClaimNames.Email, user.Email)
             ]);
